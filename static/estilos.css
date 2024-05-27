@@ -1,0 +1,90 @@
+header, nav, .main, footer{
+    width: 95%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+body {
+    background-image: url(fondo.jpg);
+    
+}
+
+h1 {
+    color: #699bc7;
+    font-family:fuente3;
+    font-size: 40px; 
+}
+
+h2 {
+    color: #081c2e;
+    font-family:fuente3;
+    font-size: 20px; 
+}
+
+nav{
+    color:#cbe3f8;
+    background: #184369;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+nav ul{
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    
+}
+nav ul li{
+    float: left;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:rgb(203, 227, 255);
+    text-decoration: none;
+    text-align: center;
+}
+.main .articles{
+    width: 60%;
+    margin-right: 1.5%;
+    background-color:#f6ffc1;
+    float:left;
+}
+.main .articles article{
+    padding: 10px;
+    background: #b9deff;
+    margin-bottom: 10px;
+}
+
+aside{
+    width: 30%;
+    float: left;
+    background: #467cab;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+footer{
+    
+    clear:both;
+    background: #0f3759;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+@font-face{
+
+    font-family: fuente3;
+    src: url(fuente3.otf);
+}
+
+header {
+    display: flex;
+    align-items: center; 
+}
+
+.centro {
+    text-align: center;
+}
